@@ -32,8 +32,8 @@ document.addEventListener("DOMContentLoaded", function () {
   sumfirstGoal_bar = sumfirstGoal_bar - 150000; //- 50000; // في حال اكمال الهدف الاول هون انقص منها الاهداف تباعا // ACHTEN HIER
 
   // Display the sum in the HTML
-  document.getElementById("spend_now").innerHTML = `<p style="text-align: left; padding-left: 15px; color:white; font-weight: bold;">${sum.toLocaleString('de-DE')}</p>`;
-  document.getElementById("firstGoal").innerHTML = `<p style="text-align: left; padding-left: 15px; color:white; font-weight: bold;">${sumfirstGoal_bar.toLocaleString('de-DE')}</p>`;
+  document.getElementById("spend_now").innerHTML = `<p style="text-align: left; padding-left: 15px; color:#000; font-weight: bold;">${sum.toLocaleString('de-DE')}</p>`;
+  document.getElementById("firstGoal").innerHTML = `<p style="text-align: left; padding-left: 15px; color:#000; font-weight: bold;">${sumfirstGoal_bar.toLocaleString('de-DE')}</p>`;
 
   function move() {
     var elem = document.getElementById("myBar");
