@@ -2,7 +2,7 @@
 
 var values = [
   //Paypal
-  46240,50,
+  46240,
   //Paypal 2
   86,
 
